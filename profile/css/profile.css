@@ -1,4 +1,4 @@
-/* CSS Reset Code */
+	/* CSS Reset Code */
 	
 	* {
 		padding: 0;
@@ -9,21 +9,10 @@
 		list-style: none;
 	}
 
-	/*header*/
-
-	header {
-		border-bottom: 1px solid white;
-		margin-bottom: 20px;
-	}
-
 	/*footer*/
 	footer {
-		border-top: 1px solid white;
-		margin-top: 20px;
-	}
-
-	p {
-		margin-bottom: 20px;
+		margin-top: 100px;
+		padding-top: 100px;
 	}
 
 	li:last-child {
@@ -31,17 +20,65 @@
 	 }
 
 	 /*body*/
-	 img {
+	 img header{
 	 	width: 200px;
-	 	height: 140px;
-	 	padding-top: 100px;
+	 	height: 200px;
+	 	margin-top:90px;
+	 	border-radius: 60%;
 	 }
 
 	 body {
 	 	text-align: center;
+	 	font-family: arial;
+	 	background-color: whitesmoke;
 	 }
 
 	li {
 		display: inline;
-		border-right: 1px solid black;
+		border-right: 2px solid paleturquoise;
 		margin-right: 5px;
+		font-size: 16px;
+	}
+
+	h1 {
+		font-family: 'Work Sans', sans-serif;
+		font-size: 40px;
+		margin-top:10px;
+		margin-bottom:20px;
+		font-color:black;
+	}
+
+	h1 a:hover {
+		font-size: 42px;
+		font-weight: bold;
+	}
+	/*all links*/
+	a {
+		text-decoration: none;
+	}
+	ul a:link {
+		color:darkturquoise;
+	}
+	a:hover {
+		font-weight: bold;
+		font-size: 16px;
+	}
+	a:visited {;
+		color:cadetblue;
+
+	}
+
+	/*about me page*/
+	img {
+		width: 200px;
+	 	height: 200px;
+	 	margin-top:0px;
+	 	border-radius: 60%;
+	 	margin-top: 20px;
+	}
+	p {
+		width: 300px;
+		text-align: center;
+		margin-left: 480px;
+
+	}
