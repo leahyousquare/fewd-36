@@ -16,8 +16,7 @@
 	}
 	
 	footer {
-	 padding-top: 50px;
-    	 margin-top: 180px;
+    	 margin-top: 200px;
     	 
 	}
 	
@@ -136,6 +135,7 @@
 	div {
 	  margin-left: 500px;
 	  margin-right: 500px;
+	  width:1000px;
 	}
 	
 	h3:hover {
