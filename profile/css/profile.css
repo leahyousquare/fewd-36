@@ -40,7 +40,7 @@
 	  background-color: #BDBDBD;
 	}
 	
-	.home:hover {
+	.home:li:hover {
 	  font-weight: bold;
 	  font-size: 16px;
 	  background: black;
