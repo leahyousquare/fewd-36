@@ -49,6 +49,7 @@
     a:hover {
       font-weight: bold;
       font-size: 16px;
+      background: black;
     }
     a:visited {;
       color:cadetblue;
@@ -115,12 +116,13 @@ ul.home li:last-child {
     list-style: none;
   }
 
-	ul.skills,
+ul.skills,
   ul.duties  {
-		text-align: left;
+	text-align: left;
 	}
 
-ul.duties {
+ul.duties,
+ul.skills {
   list-style-type:square;
   margin-left:30px;
 }
