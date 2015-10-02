@@ -51,6 +51,10 @@
 	  background: black;
 	}
 	
+	.fa:hover {
+		background: black;
+		border: 2px solid black;
+	}
 	a:visited {
 	  ;
 	  color: cadetblue;
