@@ -32,7 +32,7 @@
 	  font-size: 50px;
 	  margin-top: 40px;
 	  margin-bottom: 20px;
-	  font-color: black;
+	  color: black;
 	}
 	
 	
@@ -40,7 +40,7 @@
 	  background-color: #BDBDBD;
 	}
 	
-	.home:li:hover {
+	li.home:hover {
 	  font-weight: bold;
 	  font-size: 16px;
 	  background: black;
