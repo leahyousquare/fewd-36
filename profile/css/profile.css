@@ -118,7 +118,8 @@
 	}
 	
 	ul.skills,
-	ul.duties {
+	ul.duties,
+	ul.portfolio{
 	  text-align: left;
 	}
 	
