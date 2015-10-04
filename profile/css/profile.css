@@ -1,158 +1,163 @@
-	/* CSS Reset Code */
+/* CSS Reset Code */
 	
-	* {
-	  padding: 0;
-	  margin: 0px;
-	}
+* {
+	padding: 0;
+	margin: 0px;
+}
 	
-	ul {
-	  list-style: none;
-	}
-	/* body */
-	
-	body {
-	  font-family: arial;
-	  background-color: #00838F;
-	}
-	
-	footer {
-    	 margin-top: 200px;
-    	 
-	}
-	
-	h1,
-	ul,
-	footer {
-	  text-align: center;
-	}
-	
-	h1 {
-	  font-family: 'Work Sans', sans-serif;
-	  font-size: 50px;
-	  margin-top: 40px;
-	  margin-bottom: 20px;
-	  color: black;
-	}
-	
-	
-	h2 {
-	  background-color: #BDBDBD;
-	}
-	
-	.list:hover {
-	  font-weight: bold;
-	  font-size: 16px;
-	  background: black;
-	}
-	
-	.fa:hover {
-		background: black;
-		border: 1px solid #BDBDBD;
-	}
-	a:visited {
-	  ;
-	  color: cadetblue;
-	}
-	/* links */
-	
-	a {
-	  text-decoration: none;
-	  color: #37474F;
-	}
-	/* home page */
-	
-	img.main {
-	  width: 200px;
-	  height: 200px;
-	  border-radius: 50%;
-	  display: block;
-	  margin-top: 100px;
-	  margin-left: auto;
-	  margin-right: auto;
-	}
-	/* list of home links */
-	
-	ul.home li:last-child {
-	  border: none;
-	}
-	
-	ul.home li {
-	  border-right: 1px solid white;
-	  display: inline;
-	  padding-right: 3px;
-	  padding-left: 5px;
-	}
-	
-	ul.home {
-	  padding-bottom: 0px;
-	}
-	
-	ul a:link {
-	  color: #26C6DA;
-	}
-	/* footer */
-	
-	ul.footer li {
-	  display: inline;
-	  margin-right: 4px;
-	  margin-left: 6px;
-	  padding-right: 3px;
-	  font-size: 16px;
-	}
-	/* about me page */
-	
-	img.dubs {
-	  width: 400px;
-	  height: 400px;
-	  border-radius: 50%;
-	  display: block;
-	  margin-top: 20px;
-	  margin-left: auto;
-	  margin-right: auto;
-	}
-	/* work experience resume */
-	
-	ul.work {
-	  text-align: left;
-	  list-style: none;
-	}
-	
-	ul.skills,
-	ul.duties,
-	ul.portfolio{
-	  text-align: left;
-	}
-	
-	ul.duties,
-	ul.skills {
-	  list-style-type: square;
-	  margin-left: 30px;
-	}
-	
-	span {
-	  float: right;
-	}
-	
-	div {
-	  width:650px;
-	  margin-left:auto;
-	  margin-right:auto;
-	}
-	
-	h3:hover {
-	  background-color: #EEEEEE;
-	}
+ul {
+	list-style: none;
+}
 
-h3 {
- color: #FF8A65;
+/* body */
+
+body {
+	font-family: arial;
+	background-color: #00838F;
 }
-h4 {
-  font-size:14px;
-}
-	/* font awesome */
 	
-	.fa {
-	  color: #E3F2FD;
-	  padding: 5px;
-	  text-align: center;
-	}
+h1,
+ul,
+footer {
+	text-align: center;
+}
+	
+h1 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 50px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	color: black;
+}
+	
+h2 {
+	background-color: #BDBDBD;
+}
+
+h3:hover {
+	background-color: #EEEEEE;
+}
+	
+h3 {
+	color: #FF8A65;
+}
+	
+h4 {
+	font-size: 14px;
+}
+
+.list:hover {
+	font-weight: bold;
+	font-size: 16px;
+	background: black;
+}
+	
+.fa:hover {
+	background: black;
+	border: 1px solid #BDBDBD;
+}
+	
+a:visited {
+	color: cadetblue;
+}
+	
+a {
+	text-decoration: none;
+	color: #37474F;
+}
+	
+div {
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+/* home page */
+	
+img.main {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	display: block;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* list of home links */
+	
+ul.home li:last-child {
+	border: none;
+}
+	
+ul.home li {
+	border-right: 1px solid white;
+	display: inline;
+	padding-right: 3px;
+	padding-left: 5px;
+}
+	
+ul.home {
+	padding-bottom: 0px;
+}
+	
+ul a:link {
+	color: #26C6DA;
+}
+
+/* footer */
+
+footer {
+	margin-top: 200px;
+}
+	
+ul.footer li {
+	display: inline;
+	margin-right: 4px;
+	margin-left: 6px;
+	padding-right: 3px;
+	font-size: 16px;
+}
+
+/* about me page */
+	
+img.dubs {
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	display: block;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* work experience resume */
+	
+ul.work {
+	text-align: left;
+	list-style: none;
+}
+
+ul.skills,
+ul.duties,
+ul.portfolio {
+	text-align: left;
+}
+	
+ul.duties,
+ul.skills {
+	list-style-type: square;
+	margin-left: 30px;
+}
+	
+span {
+	float: right;
+}
+
+/* font awesome */
+
+.fa {
+	color: #E3F2FD;
+	padding: 5px;
+	text-align: center;
+}
