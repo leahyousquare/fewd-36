@@ -160,4 +160,5 @@ span {
 	color: #E3F2FD;
 	padding: 5px;
 	text-align: center;
+	border: 3px solid transparent;
 }
