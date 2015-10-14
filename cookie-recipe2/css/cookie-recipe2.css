@@ -50,16 +50,16 @@ li {
 	color: white;
 }
 
-div.big {
+.big {
 	width: 640px;
 	height:310px;
 	position:relative;	
 }
 
-div.i {
+.i {
 	position: absolute;
 	right:0px;
-	top:120px;
+	top:220px;
 }
 /*sections*/
 .left {
