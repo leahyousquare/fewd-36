@@ -1,0 +1,128 @@
+* {
+	padding:0;
+	margin:0;
+}
+/*body*/
+body {
+	background-color: #F0F0DA;
+	display: flex;
+	margin:auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*headings*/
+h1 {
+	color:#A86752;
+	font-size:26px;
+	padding-bottom: 10px;
+}
+
+h2 {
+	color:#A86752;
+	font-weight: bold;
+	font-size: 16px;
+
+}
+
+h3 {
+	color:#93B69C;
+	font-size: 16px;
+	padding-bottom: 10px;
+	font-weight: lighter;
+}
+
+/*list*/
+li {
+	display:list-item;
+}
+
+/*image*/
+
+.cookies {
+	width:640px;
+	height:310px;
+	padding-left: 60px;
+	padding-bottom: 15px;
+	position:relative;
+
+	
+}
+
+.info {
+	width:30px;
+	height: 30px;
+	position: absolute;
+	right:515px;
+	top:340px;
+	color: white;
+}
+
+/*sections*/
+.left {
+	flex-direction:row;
+	justify-content:space-between;
+	flex: 2;
+	padding-right: 30px;
+}
+
+.time {
+	display: flex;
+	list-style-type: none;
+	text-align: center;
+	padding-right: 120px;
+
+}
+
+.time-list {
+	flex: 1;
+	padding-right: 0px;
+	margin: 0px;
+	list-style-type: 
+}
+
+.ingredients {
+	padding-top: 20px;
+}
+
+.how {
+	padding-top: 10px;
+}
+
+.food,
+.howto {
+	padding-left: 25px;
+}
+
+.supplies,
+.how,
+.cookies,
+.supp,
+.howto,
+header {
+	padding-left: 20px;
+}
+
+/*right side*/
+.right {
+	flex: 1;
+	background-color:#F1D799;
+	flex-direction:row;
+	flex-wrap: wrap;
+}
+
+.more,
+.expert,
+.related,
+.nutrition{
+	padding-left: 20px;
+}
+
+.related {
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+.expert,
+.nutrition {
+	padding-top: 15px;
+}

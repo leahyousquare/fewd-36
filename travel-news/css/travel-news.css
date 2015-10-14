@@ -23,12 +23,18 @@
 		height: auto;
 		display:block;
 	}
+
+
 /*list items*/
-	ul {
-		padding:10px;
+	.news ul {
+		padding:5px 0px 0px 10px;
 	}
 
-	li {
+	h3 {
+		padding:20px 0px 0px 10px;
+	}
+
+	.news ul: li {
 		margin-bottom:20px;
 		border-bottom: 2px solid lightgray ;
 		padding-bottom:20px;
@@ -38,6 +44,32 @@
 		border: none;
 	}
 
+/*flex*/
+	.header {
+		display: flex;
+		justify-content: flex-start;
+	}
+	
+	h4 {
+		flex: 1;
+	}
+
+	.sub-login ul {
+		flex: 2;
+	}
+
+	.sub-login li {
+		list-style: none;
+		display:inline;
+		border-right: 2px solid black;
+		padding-right: 2px;
+
+	}
+
+	.sub-login li:last-child {
+		border:none;
+	}
+
 
 	/*hot cocoa*/
 		img.cocoa {
@@ -45,5 +77,5 @@
 			height:60px;
 			display:block;
 			float:right;
-			margin-bottom:30px;
+			margin-bottom:90px;
 		}

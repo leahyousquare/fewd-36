@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>layout intro</title>
+
+<style>
+* {
+	margin:0;
+	padding: 0;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+td, 
+div,
+h6,
+span,
+article,
+p{
+	background: skyblue;
+	padding: 3px;
+}
+
+section {
+	display: flex;
+	align-items:center;
+	background: skyblue;
+	justify-content:flex-start;
+}
+
+p,
+article {
+	flex: 1;
+}
+
+aside {
+	width:300px;
+	background-color: peachpuff;
+}
+
+h6 {
+	flex: 2;
+}
+
+.sidebar {
+	background: red;
+	width: 200px;
+}
+
+.main {
+	flex:1;
+}
+
+.row {
+	flex-direction:row;
+}
+</style>
+
+</head>
+<body>
+<h1>CSS layout</h1>
+
+<h2>Table layout</h2>
+
+<table>
+	<tr>
+		<td>Column 1</td>
+		<td>Column 2</td>
+		<td>Column 3</td>
+	</tr>
+</table>
+
+<h2>Flexbox</h2>
+<h3>Three even columns</h3>
+<section>
+	<div>Column 1</div>
+	<div>Column 2</div>
+	<div>Column 3</div>
+</section>
+
+<h3>Sidebar</h3>
+<section>
+	<aside>Column 1</aside>
+	<span>Column 2</span>
+	<span>Column 3</span>
+</section>
+
+<h3>Sidebar with class</h3>
+<section>
+	<span class ="sidebar">sidebar</span>
+	<span class="main">main</span>
+	<span>Column 3</span>
+</section>
+
+<h3>Three even column</h3>
+<section>
+	<article>Column 1</article>
+	<article>Column 2</article>
+	<article>Column 3</article>
+</section>
+
+<h3>One large column, two small</h3>
+<section>
+	<h6>Column 1</h6>
+	<p>Coulmn 2 </p>
+	<p>Column 3</p>
+</section>
+
+<h3>Single Column</h3>
+<selection>
+<aside>Column 1</aside>
+<article>Column 2</article>
+</section>
+
+
+<h3>Holy grail!</h3>
+<section>
+	<article>Bacon ipsum dolor amet short ribs sirloin capicola, pancetta kevin pork loin tri-tip bacon ball tip meatball cupim. Turducken swine shankle ground round t-bone short loin beef venison andouille shoulder ribeye sausage. Pork belly landjaeger doner drumstick spare ribs. Jerky pork belly shank, chicken turkey bresaola picanha brisket boudin leberkas ground round strip steak alcatra porchetta. Leberkas meatloaf prosciutto corned beef, picanha filet mignon pig andouille tri-tip pork belly ball tip ground round tongue alcatra. Drumstick tenderloin frankfurter, pig tongue strip steak ham. Tenderloin biltong shoulder, bresaola meatloaf venison bacon meatball doner chuck shankle spare ribs.
+
+</article>
+	<article>Jelly beans icing danish. Macaroon jujubes lollipop gingerbread soufflé. Sweet roll apple pie bonbon chocolate bar. Muffin croissant carrot cake jelly-o chupa chups cake bonbon. Jelly-o wafer sweet candy cupcake sweet roll chocolate cake. Muffin macaroon wafer liquorice sesame snaps pastry. Candy sesame snaps cookie. Fruitcake tiramisu dessert topping. Chocolate cake cookie candy liquorice. Pudding carrot cake oat cake sweet jujubes</article>
+	<article> Chasy daa me want bananaaa! Bappleees po kass jeje potatoooo baboiii poulet tikka masala. Hahaha la bodaaa hana dul sae uuuhhh daa jiji tank yuuu! Tatata bala tu belloo! Ti aamoo!</article>
+</section>
+
+<h3>flex row</h3>
+<section class ="row">
+<article>column1</article>
+<article>column2</article>
+</section>
+</body>
+</html>
