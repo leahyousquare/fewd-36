@@ -38,25 +38,27 @@ li {
 
 /*image*/
 
-div.cookies {
+.cookies {
 	width:640px;
 	height:310px;
 	padding-left: 60px;
 	padding-bottom: 15px;
-	position:relative;
-
-	
 }
-
-div.info {
+.info {
 	width:30px;
 	height: 30px;
-	position: absolute;
-	right:515px;
-	top:340px;
 	color: white;
 }
 
+div.big {
+	position:relative;	
+}
+
+div.i {
+	position: absolute;
+	right:515px;
+	top:340px;
+}
 /*sections*/
 .left {
 	flex-direction:row;
