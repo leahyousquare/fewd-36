@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/color-switcher.css">
+	<title>Color Scheme Switcher</title>
+</head>
+
+<body class="">
+<ul>
+	<li class="aqua">aqua</li>
+	<li class="orchid">orchid</li>
+	<li class ="crimson">crimson</li>
+	<li class="teal">teal</li>
+</ul>
+<h1> Color Scheme Switcher</h1>
+<p>Try clicking on one of the colors above to change the colors on this page! </p>
+
+<script>
+	function changeColor(color) {
+		var body = document.querySelector("body");
+		body.setAttribute("class", color);
+}
+</script>
+</body>
+</html>
