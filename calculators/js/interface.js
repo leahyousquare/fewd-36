@@ -6,7 +6,7 @@ pyA.addEventListener('keyup', calcPy);
 pyB.addEventListener('keyup', calcPy);
 
 function calcPy(event) {
-  if (pyA.value.length > 0 && pyB.value.length > 0) {
+  if (pyA.value.length > 0 & pyB.value.length > 0) {
     pyC.value = calcLongestSide(pyA.value, pyB.value)
   } else {
     pyC.value = '';

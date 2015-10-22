@@ -38,13 +38,11 @@
       //celcius to farenheit;
 
        function calcCelciusToFahrenheit(tempC) {
-        var tempC = parseInt(tempC);
         var tempF = tempC * (9/5) + 32;
         return tempF; 
       }
       // farenheit to celcius;
         function calcFahrenheitToCelcius(tempF) {
-          var tempF = parseInt(tempF);
           var tempC = (tempF-32) * (5/9);
           return tempC;
       } 
@@ -54,9 +52,9 @@
         return circum;
       }
       //pythagorean theorem;
-      function calcLongestSide(pyA, pyB) {
-        var pyC = Math.sqrt((pyA*pyA) + (pyB*pyB));
-        return pyC; 
+      function calcLongestSide(a,b) {
+        var c = Math.sqrt((a*a) + (b*b));
+        return c; 
       }
       
     </script>
