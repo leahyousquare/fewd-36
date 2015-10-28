@@ -19,8 +19,9 @@ function calcCtoF(event) {
   } else {
     tempF.value = '';
   }
+}
 
-  function calcCelciusToFahrenheit(tempC) {
+ function calcCelciusToFahrenheit(tempC) {
         var tempF = tempC * (9/5) + 32;
         return tempF; 
       }
@@ -28,4 +29,4 @@ function calcCtoF(event) {
         function calcFahrenheitToCelcius(tempF) {
           var tempC = (tempF-32) * (5/9);
           return tempC;
-      }
+      } 
