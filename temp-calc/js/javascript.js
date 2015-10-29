@@ -1,8 +1,9 @@
 
 var tempF = document.querySelector(".temp-f");
 var tempC = document.querySelector(".temp-c");
-var startOver = document.querySelector(".start-again")
+var startOver = document.querySelector(".start-again");
 
+// event handler function
 tempF.addEventListener('keyup', calcFtoC);
 tempC.addEventListener('keyup', calcCtoF);
 startOver.addEventListener('click', redo);
@@ -27,8 +28,7 @@ function calcCtoF(event) {
         var tempF = tempC * (9/5) + 32;
         return tempF; 
       }
-      // farenheit to celcius;
-        function fToC(tempF) {
+function fToC(tempF) {
           var tempC = (tempF-32) * (5/9);
           return tempC;
       } 

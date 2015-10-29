@@ -43,11 +43,24 @@ div {
   height:80px;
 }
 
+.temp-c {
+  margin-left: 30px;
+}
+
 .calculator {
   border: solid 20px cadetblue;
   padding-bottom: 30px;
   padding-top:10px;
 
+}
+
+.arrow {
+  padding-left: 40px;
+  font-size: 90px;
+}
+
+.degree {
+  font-size:60px;
 }
 
 .reset {
