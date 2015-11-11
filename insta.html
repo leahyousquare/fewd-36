@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>create element</title>
+	<style>
+	label {
+		display:block;
+	}
+	</style>
+</head>
+<body>
+
+	<ul>
+		<li>blue</li>
+		<li>green</li>
+		<li>red</li>
+	</ul>
+
+
+<label>
+Name
+<input class ="username">
+</label>
+
+<label>
+Comment
+<input class ="comment">
+</label>
+
+<button>post</button>
+
+
+
+<script>
+// strucure
+// read
+var list = document.querySelector("ul");
+// interactive
+var button = document.querySelector("button");
+// changed
+var username = document.querySelector(".username");
+var comment = document.querySelector(".comment");
+
+
+// event listener
+button.addEventListener("click", addComment);
+comment.addEventListener("keyup", addComment);
+// what happens when button gets clicked - it adds a new li and new class
+function addComment(enter) {
+	// when hit enter, will submit
+	console.log(enter);
+	var key = enter.keyCode;
+// keycode to use the enter button AND/OR post button
+	if (key && key != 13) {
+		return;
+
+	}
+
+	var usernameValue = username.value;
+	var commentValue = comment.value;
+	// step 1 - crate variable to store element
+	var newItem = document.createElement("li");
+	// step 2 - give variable content/class name
+	newItem.textContent = usernameValue + ":" + commentValue;
+
+	// step 3 - insert element into DOM
+	list.appendChild(newItem);
+}
+
+</script>
+
+</body>
+</html>

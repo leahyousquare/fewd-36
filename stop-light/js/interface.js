@@ -15,8 +15,7 @@ button2.addEventListener("click", changeYellow);
 button3.addEventListener("click", changeGreen);
 
 
-// when you want to change to red
-
+// change the different colors
 function changeRed(event) {
 	body.className = "stop";
 }

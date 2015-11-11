@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>create element</title>
+</head>
+<body>
+<button>Color Me</button>
+
+	<ul>
+		<li>blue</li>
+		<li>green</li>
+		<li>red</li>
+	</ul>
+<script>
+// strucure
+var list = document.querySelector("ul");
+var button = document.querySelector("button");
+
+// event listener
+button.addEventListener("click", colorMe);
+
+// what happens when button gets clicked - it adds a new li and new class
+function colorMe() {
+	var color = prompt("what color??");
+	// step 1 - crate variable to store element
+	var newItem = document.createElement("li");
+	// step 2 - give variable content/class name
+	newItem.textContent = color;
+	newItem.className = color;
+	// step 3 - insert element into DOM
+	list.appendChild(newItem);
+}
+
+</script>
+
+</body>
+</html>
