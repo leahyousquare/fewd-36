@@ -5,7 +5,7 @@
 }
 body {
 	text-align: center;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: Tahoma, Geneva, sans-serif;
 }
 
 header {
@@ -14,7 +14,7 @@ header {
 
 .tasks,
 .date {
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 18px;
 	width:130px;
 	height:40px;
@@ -48,7 +48,7 @@ header {
 }
 button {
 	background-color: #81A2E4;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 20px;
 	width:90px;
 	height:40px;
