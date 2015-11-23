@@ -54,7 +54,7 @@ button {
 	height:40px;
 }
 
-.boxes {
+input {
 	text-align: left;
 	-webkit-appearance: none;
 	background-color: white;
@@ -65,13 +65,13 @@ button {
 	position: relative;
 }
 
-.boxes:checked {
+input:checked {
 	background-color: #81A2E4;
 	border: 1px solid #81A2E4;
 	color: black;
 }
 
-.boxes:checked:after {
+input:checked:after {
 	content: '\2714';
 	font-size: 10px;
 	position: absolute;
@@ -79,8 +79,10 @@ button {
 
 }
 
-.boxes:checked + .line {
+input:checked + span {
 	text-decoration: line-through;
 
 }
+
+
 
