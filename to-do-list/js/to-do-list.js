@@ -5,11 +5,12 @@ var tasks = document.querySelector(".tasks");
 var date = document.querySelector(".date");
 var entries = document.querySelector(".entries");
 var ul = document.querySelector("ul");
+var button = document.querySelector("button");
+
 
 // Events
 // ------------------------------------------------
-form.addEventListener("submit", addTask);
-
+button.addEventListener("submit", addTask);
 
 function addTask(event) {
 	event.preventDefault(event);
@@ -18,19 +19,26 @@ function addTask(event) {
 	var dateValue = date.value;
 
 // create element
-	var newTask = document.createElement("li");
+	var span = document.createElement("span");
+	var box = document.createElement("input");
+	var li = document.createElement("li");
+
 
 // decorate element
 	// newTask.type = "checkbox";
 	// newTask.textContent = tasksValue + dateValue;
-	newTask.innerHTML = '<input type="checkbox" class="boxes">' + " " + tasksValue + " " + dateValue;
-	newTask.className = "line";
+	box.type = ("checkbox");
+	li.textContent = tasksValue + " " + dateValue;
+	box.className = "boxes";
+
+// box.addEventListener("click", )
+
 // insert element
-	ul.appendChild(newTask);
+	ul.appendChild(span)
+	li.appendChild(box);
+	span.appendChild(li);
+
 }
-
-// boxes.addEventListener("click", strike);
-
-// function strike(event) {
-// 	li.className = "line";
+// 	li.appendChild(box);
+// 	box.appendChild(span);
 // }

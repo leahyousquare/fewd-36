@@ -1,0 +1,72 @@
+/*reset*/
+* {
+	margin: 0;
+	list-style: none;
+}
+/*google map*/
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+
+/*main body*/
+h1 {
+
+}
+
+body {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;	
+
+}
+
+header {
+	width: 700px;
+	background-color:gray ;
+	margin-left: auto ;
+ 	margin-right: auto;
+ 	border-bottom: black 2px solid;
+ 	border-top: black 2px solid;
+ 	height: 30px;
+
+}
+
+header ul {
+	display: flex;
+}
+
+header li  {
+	flex:1;
+	padding-top: 6px;
+	border-right: 1px solid black;
+	padding-bottom: 5px;
+}
+
+form {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.entry {
+	width:200px;
+	height:24px;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+}
+/*map area*/
+
+.map-placeholder {
+	border: black 2px solid;
+	width: 800px;
+	height: 530px;
+	margin-left: auto ;
+ 	margin-right: auto;
+}
+
