@@ -5,12 +5,12 @@ var tasks = document.querySelector(".tasks");
 var date = document.querySelector(".date");
 var entries = document.querySelector(".entries");
 var ul = document.querySelector("ul");
-var button = document.querySelector("button");
-
+var button = document.querySelector("button")
 
 // Events
 // ------------------------------------------------
-button.addEventListener("submit", addTask);
+button.addEventListener("click", addTask);
+
 
 function addTask(event) {
 	event.preventDefault(event);
@@ -19,26 +19,27 @@ function addTask(event) {
 	var dateValue = date.value;
 
 // create element
-	var span = document.createElement("span");
-	var box = document.createElement("input");
-	var li = document.createElement("li");
-
+	var newTask = document.createElement("li");
+	var checkbox = document.createElement("input");
+	var text = document.createElement("span");
 
 // decorate element
 	// newTask.type = "checkbox";
 	// newTask.textContent = tasksValue + dateValue;
-	box.type = ("checkbox");
-	li.textContent = tasksValue + " " + dateValue;
-	box.className = "boxes";
-
-// box.addEventListener("click", )
-
+	// newTask.innerHTML = '<input type="checkbox" class="boxes">' + " " + tasksValue + " " + dateValue;
+	// newTask.className = "line";
 // insert element
-	ul.appendChild(span)
-	li.appendChild(box);
-	span.appendChild(li);
 
+	checkbox.setAttribute("type", "checkbox");
+	text.textContent = " " + tasksValue + " " + dateValue;
+
+	ul.appendChild(newTask);
+	newTask.appendChild(checkbox);
+	newTask.appendChild(text);
 }
-// 	li.appendChild(box);
-// 	box.appendChild(span);
+
+// boxes.addEventListener("click", strike);
+
+// function strike(event) {
+// 	li.className = "line";
 // }
