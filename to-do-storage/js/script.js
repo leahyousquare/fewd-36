@@ -11,7 +11,7 @@ var button = document.querySelector("button");
 
 // setup
 // ------------------------------------------------
-var listItems = {
+var todo = {
 	"items": []
 
 };
@@ -20,37 +20,39 @@ var listItems = {
 // Events
 // ------------------------------------------------
 window.addEventListener("load", setPage);
-button.addEventListener("click", addTask);
+button.addEventListener("click", createTask);
 
 
 function setPage(event) {
-	if (localStorage.getItem("listItems") == null) {
+	if (localStorage.getItem("todo") == null) {
 		return;
 	}
 	else { 
-	listItems = JSON.parse(localStorage.getItem("listItems"));
-	listItems.items.forEach(addTask);
+	todo = JSON.parse(localStorage.getItem("todo"));
+	todo.items.forEach(createTask);
 
 }}
 
 function enter(event) {
 	event.preventDefault(event);
-
-	var tasksValue = tasks.value;
-	var dateValue = date.value;
 	
+	var fullTask = {
+		"name": input.value,
+		"date": date.value,
+		"done": false
 
-	addTask(tasksValue);
+	}
 
-	listItems.items.push(tasksValue);
-	localStorage.setItem("listItems", JSON.stringify(listItems));
+	todo.items.push(fullTask);
+	createTask(fullTask);
+
+	localStorage.setItem("todo", JSON.stringify(todo));
 }
 
 
 
 
-function addTask(event) {
-	event.preventDefault(event);
+function createTask(event) {
 
 	// var tasksValue = tasks.value;
 	// var dateValue = date.value;
@@ -66,15 +68,25 @@ function addTask(event) {
 	// newTask.innerHTML = '<input type="checkbox" class="boxes">' + " " + tasksValue + " " + dateValue;
 	// newTask.className = "line";
 // insert element
-
 	checkbox.setAttribute("type", "checkbox");
-	text.textContent = event.listItems;
+
+	if (fullTask.done) {
+	checkbox.setAttribute("checked", true);
+
+}
+	text.textContent = "fullTask.name" + " " + "fullTask.date" ;
+
+	checkbox.addEventListener("click", taskClicked);
 
 	ul.appendChild(newTask);
 	newTask.appendChild(checkbox);
 	newTask.appendChild(text);
 }
 
+
+function taskClicked(event) {
+
+}
 // boxes.addEventListener("click", strike);
 
 // function strike(event) {

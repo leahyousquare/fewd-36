@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Desserts</name>
+		<NetworkLink>
+			<name>Dessert Map</name>
+			<Link>
+				<href>http://mapsengine.google.com/map/u/0/kml?forcekml=1&amp;mid=zqUf6KT621VU.k91vXr-EPgR4&amp;lid=zqUf6KT621VU.kOzIjt19QbEo</href>
+			</Link>
+		</NetworkLink>
+	</Document>
+</kml>

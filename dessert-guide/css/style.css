@@ -19,24 +19,24 @@ h1 {
 }
 
 body {
-	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;	
 
 }
 
 header {
-	width: 700px;
+	width: auto;
 	background-color:gray ;
 	margin-left: auto ;
  	margin-right: auto;
  	border-bottom: black 2px solid;
  	border-top: black 2px solid;
- 	height: 30px;
+ 	height: auto;
 
 }
 
 header ul {
 	display: flex;
+	font-size: 18px;
 }
 
 header li  {
@@ -44,6 +44,11 @@ header li  {
 	padding-top: 6px;
 	border-right: 1px solid black;
 	padding-bottom: 5px;
+}
+
+header a {
+	text-decoration: none;
+
 }
 
 form {
@@ -64,9 +69,27 @@ button {
 
 .map-placeholder {
 	border: black 2px solid;
-	width: 800px;
-	height: 530px;
-	margin-left: auto ;
+	width: 1200px;
+	height: 630px;
+	margin-left: 20px ;
  	margin-right: auto;
+ 	position: absolute;
 }
 
+
+/*dessert list*/
+.dessert-list {
+	border: black 1px solid;
+	background-color: gray;
+	width: 400px;
+	height: auto;
+	margin-left: 30px;
+	padding-right: 10px;
+	margin-top: 10px;
+	position: relative;
+}
+
+.donuts {
+	width: 300px;
+	height: auto;
+}
