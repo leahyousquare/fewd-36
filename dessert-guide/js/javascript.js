@@ -6,7 +6,7 @@
 	
 
 var layer = new google.maps.KmlLayer ({
-	url: 'http://leahyousquare.github.io/fewd-36/dessert-guide/kml/desserts.kml',
+	url: 'http://leahyousquare.github.io/fewd-36/dessert-guide/kml/desserts1.kml',
 	map: map
 });
 
