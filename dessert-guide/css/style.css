@@ -109,18 +109,27 @@ section {
 
 section li {
 	display: inline;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 22px;
 
 }
 
+section .all:hover {
+	background-color: white;
+}
+
+section .fa:hover {
+	color: white;
+}
 .all {
-	padding-right: 20px;
+	margin-right: 20px;
 }
 
 
 section span {
 	display: inline;
 	text-align: right;
-	padding-left: 215px;
+	padding-left: 150px;
 }
 
 .fa {
