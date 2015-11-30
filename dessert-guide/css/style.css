@@ -11,9 +11,10 @@ html, body {
         background-color: #eff8f9;
       }
 
-      #map {
+      #bayMap {
         height: 100%;
       }
+
 
 /*main body*/
 h1 {
@@ -114,22 +115,22 @@ section li {
 
 }
 
-section .all:hover {
+section .option:hover {
 	background-color: white;
 }
 
 section .fa:hover {
 	color: white;
 }
-.all {
-	margin-right: 20px;
+.one {
+	margin-left: 20px;
 }
 
 
 section span {
 	display: inline;
 	text-align: right;
-	padding-left: 150px;
+	padding-left: 180px;
 }
 
 .fa {
@@ -154,5 +155,8 @@ section span {
 	font-size: 22px;
 }
 
-
+.editInfoWindow {
+	text-align: center;
+	color: orange;
+}
 
