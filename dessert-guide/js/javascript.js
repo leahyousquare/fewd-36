@@ -221,12 +221,18 @@ var markers = [
                 });
                }
 
+
+
                     //Wrap the content inside an HTML DIV in order to set height and width of InfoWindow.
                     // infoWindow.setContent("<div style = 'width:150px;min-height:40px'>" + data.description + "</div>");
                     // infoWindow.open(map, marker);
                 // });
 
-
+function jump (e) {
+    var sections = location.href;
+    location.href = "#"+e;
+    document.querySelector.scroll
+}
 // click event that links to side bar
         // function (marker, data) {
         // 	google.maps.event.addEventListener(marker, "click", function (e) 
