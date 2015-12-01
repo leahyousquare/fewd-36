@@ -11,7 +11,7 @@ html, body {
         background-color: #eff8f9;
       }
 
-      #bayMap {
+      #map {
         height: 100%;
       }
 
@@ -60,6 +60,10 @@ header a:hover {
 	color: #e3bab8;
 }
 
+.suggestions {
+	padding-right: 10px;
+	padding-left: 12px;
+}
 .social {
 	text-align: right;
 	padding-right: 10px;
@@ -71,6 +75,10 @@ header a:hover {
 	padding-right: 120px;
 	text-align: left;
 	display: inline;
+}
+
+ {
+	margin-bottom: 20px;
 }
 
 
