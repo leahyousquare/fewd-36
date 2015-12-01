@@ -93,7 +93,7 @@ header a:hover {
  	margin-left: auto;
 	margin-right: auto;
  	margin-top: 40px;
- 	order:2;
+ 	flex:2;
  	
 }
 
@@ -108,7 +108,7 @@ header a:hover {
 	margin-right: auto;
 	margin-top: 40px;
 	overflow-y: auto;
-	order:1;
+	flex:1;
 }
 
 .dessert-single {
