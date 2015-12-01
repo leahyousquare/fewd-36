@@ -14,7 +14,9 @@ html, body {
       #map {
         height: 100%;
       }
-
+.flex container {
+	display:flex;
+}
 
 /*main body*/
 h1 {
@@ -91,7 +93,6 @@ header a:hover {
  	margin-left: auto;
 	margin-right: auto;
  	margin-top: 40px;
- 	display: flex;
  	order:2;
  	
 }
@@ -107,7 +108,6 @@ header a:hover {
 	margin-right: auto;
 	margin-top: 40px;
 	overflow-y: auto;
-	display:flex;
 	order:1;
 }
 
