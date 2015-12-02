@@ -47,7 +47,7 @@ var markers = [
         "title": 'fentons',
         "lat": '37.82794',  
         "lng": '-122.24999',
-        "description": "<h3 align='center'>fentons creamery</h3> <p align='center'><br>san francisco, ca </p>"
+        "description": "<h3 align='center'>fentons creamery</h3> <p align='center'><br>oakland, ca </p>"
     },
 
     {
@@ -190,7 +190,12 @@ var markers = [
         // Create and open InfoWindow.
         var infoWindow = new google.maps.InfoWindow();
  
+
+
         for (var i = 0; i < markers.length; i++) {
+            createMarker(i);
+        }
+        function createMarker(i) {
             var data = markers[i];
             var myLatlng = new google.maps.LatLng(data.lat, data.lng);
             var marker = new google.maps.Marker ({
@@ -208,7 +213,7 @@ var markers = [
                 marker.addListener("click", function (e) {
                     console.log('this is inside');
                     var marker_target = e.Gb.target.title;
-                    // var dessert_target = data.title;
+                    var dessert_target = data.title;
 
                     // marker_target.forEach(function (element){
                     //     console.log(element);
