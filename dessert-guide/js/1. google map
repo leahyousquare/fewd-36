@@ -8,3 +8,23 @@
 
 
 
+
+
+
+Why this website:
+I'm always asked by friends and family that come to visit SF and the Bay Area for spots to eat or places with MUST EAT desserts. I decided that rather than giving them a list of dessert spots, I can make a website that puts together my favorite ones with pictures, highlights and a map of where each of them are. 
+
+things that i'm happy about:
+anchors with the google map api and my html but had to hard code
+flex box
+
+things i had trouble with:
+figuring out the google map api in relation to html/js
+
+
+things i'd change/redo:
+-using JSON to store my data
+-less hard coding
+-finish my suggestions page
+-make it more interactive with JS
+-making it responsive

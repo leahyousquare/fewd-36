@@ -102,49 +102,23 @@ header a:hover {
 /*dessert list*/
 .dessert-section {
 	border: black 1px solid;
-	background-color: white;
-	width: 380px;
+	background-color: #e3bab8;
+	width: 370px;
 	height: 570px;
 	margin: auto;
 	margin-top: 40px;
 	overflow-y: auto;
 	order: 1;
+	padding-right: 35px;
 }
 
-.dessert-single {
-
+.dessert-section p {
+	text-align: center;
 }
 
-section {
-	background-color: #e3bab8;
-
-}
-
-section li {
-	display: inline;
-	font-family: 'Alegreya Sans SC', sans-serif;
-	font-size: 22px;
-
-}
-
-section .option:hover {
-	background-color: white;
-}
-
-section .fa:hover {
-	color: white;
-}
-.one {
-	margin-left: 20px;
-}
-
-
-section span {
-	display: inline;
+.dessert-section h2 {
 	text-align: right;
-	padding-left: 180px;
 }
-
 .fa {
 	padding-right: 5px;
 }
@@ -167,8 +141,68 @@ section span {
 	font-size: 22px;
 }
 
-.editInfoWindow {
+
+.infostyle {
 	text-align: center;
-	color: orange;
+
 }
 
+.infostyle h3 {
+	font-size: 18px;
+}
+
+.infostyle a {
+	text-decoration: underline;
+	color: #e3bab8;
+}
+
+
+/*suggestions page*/
+.survey {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	border: 1px black solid;
+	width: 510px;
+	height: 160px;
+	background-color: #e3bab8;
+	text-align: center;
+
+}
+
+form {
+	font-size: 20px;
+	margin-right: 30px;
+
+}
+
+input {
+	width:300px;
+	height: 15px;
+}
+
+
+/*gallery*/
+.gallery-view {
+	width: 890px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
+}
+.circle {
+	border-radius: 50% ;
+	width: 130px;
+	height: 130px;
+}
+
+.circle:hover {
+	opacity: .5;
+
+}
+
+.twist {
+	position: relative;
+}
+ .caption {
+	position: absolute;
+}
