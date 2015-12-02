@@ -2,10 +2,10 @@ console.log('this works');
 
 var markers = [
     {
-        "title": 'twisted donuts',
+        "title": 'twisted',
         "lat": '37.75403',
         "lng": '-122.47724',
-        "description": '<h3 align="center">twisted donuts</h3> <p align="center">1243 noriega street<br> san francisco, ca 94122</p>'
+        "description": '<a href="#twisted"><h3 align="center">twisted donuts</h3></a> <p align="center">1243 noriega street<br> san francisco, ca 94122</p>'
     },
 
     {
@@ -188,7 +188,7 @@ var markers = [
         var map = new google.maps.Map(document.getElementById("map"), mapOptions);
  
         // Create and open InfoWindow.
-        // var infoWindow = new google.maps.InfoWindow();
+        var infoWindow = new google.maps.InfoWindow();
  
         for (var i = 0; i < markers.length; i++) {
             var data = markers[i];
@@ -200,39 +200,42 @@ var markers = [
                 label: labels[labelIndex++ % labels.length]
 
             });
-          }
-      }
+
             //Attach click event to the marker.
-            function click (markers, data) {
-            	console.log(marker.title);
-                google.maps.event.addListener(marker, "click", function (e) {
-                	var marker_target = e.Gb.target.title;
-                	var dessert_target = data.title;
+            (function (markers, data) {
+                console.log(marker.title);
 
-                	marker_target.forEach(function (element) {
-                		console.log(element);
-                	});
-                	
-                	// document.anchors.name;
+                marker.addListener("click", function (e) {
+                    console.log('this is inside');
+                    var marker_target = e.Gb.target.title;
+                    // var dessert_target = data.title;
 
-                	document.anchors.forEach(function (element){
-                		console.log(element);
-                	});
+                    // marker_target.forEach(function (element){
+                    //     console.log(element);
+                    // });
+
+                    // document.anchors.forEach(function (element){
+                    //     console.log(element);
+                    // });
+
+                    infoWindow.setContent("<div style = 'width:150px;min-height:40px'>" + data.description + "</div>");
+                    infoWindow.open(map, marker);
                 });
-               }
+
+            })(marker, data);
+
+          }
 
 
+      }
 
-                    //Wrap the content inside an HTML DIV in order to set height and width of InfoWindow.
-                    // infoWindow.setContent("<div style = 'width:150px;min-height:40px'>" + data.description + "</div>");
-                    // infoWindow.open(map, marker);
-                // });
+                
 
-function jump (e) {
-    var sections = location.href;
-    location.href = "#"+e;
-    document.querySelector.scroll
-}
+// function jump (e) {
+//     var sections = location.href;
+//     location.href = "#"+e;
+//     document.querySelector.scroll
+// }
 // click event that links to side bar
         // function (marker, data) {
         // 	google.maps.event.addEventListener(marker, "click", function (e) 
