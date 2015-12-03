@@ -53,7 +53,7 @@ var markers = [
         "title": "peters-kettle",
         "lat": '37.78889',  
         "lng": '-122.19657',
-        "description": "<a href='#peters-kettle'><h3 align='center'>peter's kettle corn</h3></a><p align='center'4139 macarthur blvd><br>oakland, ca </p>"
+        "description": "<a href='#peters'><h3 align='center'>peter's kettle corn</h3></a><p align='center'>4139 macarthur blvd><br>oakland, ca </p>"
     },
 
 	{
@@ -112,7 +112,7 @@ var markers = [
         "title": 'birite',
         "lat": '37.76158',  
         "lng": '-122.42566',
-        "description": "<a href='#'birite><h3 align='center'>bi-rite creamery</h3></a><p align='center'>3692 18th st<br>san francisco, ca </p>"
+        "description": "<a href='#birite'><h3 align='center'>bi-rite creamery</h3></a><p align='center'>3692 18th st<br>san francisco, ca </p>"
     },
     {
         "title": "ants",
@@ -212,8 +212,8 @@ var markers = [
 
                 marker.addListener("click", function (e) {
                     // console.log('this is inside');
-                    var marker_target = e.Gb.target.title;
-                    var dessert_target = data.title;
+                    // var marker_target = e.Gb.target.title;
+                    // var dessert_target = data.title;
 
                     // marker_target.forEach(function (element){
                     //     console.log(element);
