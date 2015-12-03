@@ -53,11 +53,7 @@ footer div {
 
 	}
 
-	section ul {
-		flex-direction: column;
-	}
-
-	footer  {
+	.flex-container  {
 		flex-direction: column;
 
 	}

@@ -164,7 +164,7 @@ header a:hover {
 	margin-top: 40px;
 	border: 1px black solid;
 	width: 510px;
-	height: 160px;
+	height: 180px;
 	background-color: #e3bab8;
 	text-align: center;
 
@@ -200,9 +200,50 @@ input {
 
 }
 
-.twist {
-	position: relative;
-}
- .caption {
-	position: absolute;
-}
+
+
+/*responsive*/
+
+@media (max-width: 650px) {
+	header {
+		display: flex;
+		justify-content:space-between;
+	}
+
+	header ul {
+		flex-direction: column;
+
+	}
+
+	.flex-container  {
+		flex-direction: column;
+
+	}
+
+	.map-placeholder {
+		width: 550px;
+		height: 360px; 
+		margin-bottom: 
+	}
+
+	.dessert-section {
+		width: 400px;
+		height: 360px; 
+		display: inline;
+		/*flex-direction: row;
+		overflow-x: auto;*/
+		float: right;
+
+	}
+
+	.gallery-view {
+		width: 520px;
+		margin-right: auto;
+		margin-left: auto;	
+		padding-top: 40px;
+
+	}
+
+	}
+}	
+
