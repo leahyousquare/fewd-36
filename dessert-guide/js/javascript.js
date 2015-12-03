@@ -65,8 +65,8 @@ var markers = [
 
 	{
         "title": 'cream',
-        "lat": '37.76505',  
-        "lng": '-122.42221',
+        "lat": '37.8671014',  
+        "lng": '-122.2608563',
         "description": "<a href='#cream'><h3 align='center'>cream</h3></a><p align='center'>2399 telegraph ave<br>berkeley, ca </p>"
     },
 
