@@ -53,7 +53,7 @@ var markers = [
         "title": "peters-kettle",
         "lat": '37.78889',  
         "lng": '-122.19657',
-        "description": "<a href='#peters'><h3 align='center'>peter's kettle corn</h3></a><p align='center'>4139 macarthur blvd><br>oakland, ca </p>"
+        "description": "<a href='#peters'><h3 align='center'>peter's kettle corn</h3></a><p align='center'>4139 macarthur blvd<br>oakland, ca </p>"
     },
 
 	{
